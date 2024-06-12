@@ -1,0 +1,77 @@
+[
+    {
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM1-tspa0_eYQIPCSGUMNVWC-5wnVoIBQoaA&s",
+        "name": "Cat Food",
+        "price": 20
+    },
+    {
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8OcpScCP5Xj5rYfvOclTzrO14vSIW37w_Tg&s",
+        "name": "Dog Food",
+        "price": 25
+    },
+    {
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt63f_KVy7jmuOeBmsQ4mgdka3J4i3CwcJAw&s",
+        "name": "Cat Litter",
+        "price": 15
+    },
+    {
+        "image_url": "https://www.homesalive.ca/media/catalog/product/f/r/front_range_collar_600_x_600_.jpg",
+        "name": "Dog Collar",
+        "price": 10
+    },
+    {
+        "image_url": "https://static-01.daraz.com.bd/p/297469c8dd6efaac4684248aae36f0e7.jpg",
+        "name": "Pet Bed",
+        "price": 35
+    },
+    {
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIaaE0vI3WP3jfRGm57CK1VY2jLQ8-cxM7LA&s",
+        "name": "Cat Scratching Post",
+        "price": 45
+    },
+    {
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDekPFO8_q4ycEkWbuahi16FPO09wEWwXaEw&s",
+        "name": "Dog Leash",
+        "price": 12
+    },
+    {
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmEl0-fOz9iPh7gDEXeFid3Rs5Q0hG2EgZeQ&s",
+        "name": "Bird Cage",
+        "price": 50
+    },
+    {
+        "image_url": "https://www.ubuy.com.bd/productimg/?image=aHR0cHM6Ly9pNS53YWxtYXJ0aW1hZ2VzLmNvbS9zZW8vU1BSSU5HLVBBUkstSGFuZ2luZy1GaXNoLVRhbmstQm93bC13aXRoLVN0YW5kLUNyZWF0aXZlLVNtYWxsLVRhYmxlLVRyYW5zcGFyZW50LUdsYXNzLUZpc2gtVmFzZS1BcXVhcml1bS1mb3ItSG9tZS1EZWNvcl9jMmE0YmFmMS03NTdjLTRiY2UtYTM1Yi1mZWQwNGM5NDAyNTkuMTIyMTEwNDgzMTE0NzEzMGYyMWMwMmE2YWFjNmZkYTkuanBlZw.jpg",
+        "name": "Fish Tank",
+        "price": 100
+    },
+    {
+        "image_url": "https://m.media-amazon.com/images/I/71IOf5AIMfL._AC_SL1500_.jpg",
+        "name": "Rabbit Hutch",
+        "price": 60
+    },
+    {
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjImohwWsDkAmPAKwFdOeeXrJodYxwEIzcbQ&s",
+        "name": "Hamster Wheel",
+        "price": 15
+    },
+    {
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5uT2qMdDOd-8YJzid0UsAVSOxTWGmONzZfw&s",
+        "name": "Pet Shampoo",
+        "price": 8
+    },
+    {
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuCbvtd6B0SaEj97mq5DzEMvjMd2zpXYB6Pg&s",
+        "name": "Dog Bowl",
+        "price": 7
+    },
+    {
+        "image_url": "https://m.media-amazon.com/images/I/61bf1yoHyKL._AC_SL1100_.jpg",
+        "name": "Cat Toy",
+        "price": 5
+    },
+    {
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTggqNh1vGtptZnRtTDDQCoWqcXMEQzSHGsNw&s",
+        "name": "Pet Carrier",
+        "price": 30
+    }
+]

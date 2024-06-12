@@ -1,0 +1,128 @@
+[
+    {
+        "name": "Kitten",
+        "breed": "Persian",
+        "age": "4 months",
+        "personality": "Playful",
+        "image_url": "https:\/\/images.pexels.com\/photos\/1870376\/pexels-photo-1870376.jpeg?cs=srgb&dl=pexels-larissa-barbosa-945746-1870376.jpg&fm=jpg"
+    },
+    {
+        "name": "Puppy",
+        "breed": "Golden Retriever",
+        "age": "6 months",
+        "personality": "Friendly",
+        "image_url": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSLFYQMyuFmoJTICcSp2M-RPFCxSC8oNYLsnw&s"
+    },
+    {
+        "name": "Bella",
+        "breed": "Siamese",
+        "age": "2 years",
+        "personality": "Affectionate",
+        "image_url": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRQng-yWq-AHIEGIPWFMb-BfyL-VDwnZLTq5A&s"
+    },
+    {
+        "name": "Charlie",
+        "breed": "Labrador",
+        "age": "1 year",
+        "personality": "Energetic",
+        "image_url": "https:\/\/www.vidavetcare.com\/wp-content\/uploads\/sites\/234\/2022\/04\/labrador-retriever-dog-breed-info.jpeg"
+    },
+    {
+        "name": "Thumper",
+        "breed": "Holland Lop",
+        "age": "6 months",
+        "personality": "Curious",
+        "image_url": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRQT2DWFRJ7bCjVQ2HTmkNeCyJEmudIY-dvcA&s"
+    },
+    {
+        "name": "Coco",
+        "breed": "Cockatiel",
+        "age": "3 years",
+        "personality": "Talkative",
+        "image_url": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRVYqDTLEnz-eQgSLiXj46SoKN0m6n_178nbQ&s"
+    },
+    {
+        "name": "Max",
+        "breed": "Beagle",
+        "age": "8 months",
+        "personality": "Curious",
+        "image_url": "https:\/\/www.akc.org\/wp-content\/uploads\/2021\/01\/Beagle-puppy-standing-in-the-grass-1-500x486.jpeg"
+    },
+    {
+        "name": "Daisy",
+        "breed": "Calico",
+        "age": "5 months",
+        "personality": "Friendly",
+        "image_url": "https:\/\/images.wagwalkingweb.com\/media\/daily_wag\/blog_articles\/hero\/1692605907.4906063\/calico-cat.jpg"
+    },
+    {
+        "name": "Bunny",
+        "breed": "Lionhead",
+        "age": "7 months",
+        "personality": "Gentle",
+        "image_url": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSTDczjWlIRKdtIcsgu6D1rnPqqfYOIkUDYNg&s"
+    },
+    {
+        "name": "Blue",
+        "breed": "Parakeet",
+        "age": "1 year",
+        "personality": "Sociable",
+        "image_url": "https:\/\/static.wixstatic.com\/media\/nsplsh_355752425255735471506b~mv2_d_3008_2000_s_2.jpg\/v1\/fill\/w_1000,h_665,al_c,q_85,usm_0.66_1.00_0.01\/nsplsh_355752425255735471506b~mv2_d_3008_2000_s_2.jpg"
+    },
+    {
+        "name": "Milo",
+        "breed": "Shih Tzu",
+        "age": "9 months",
+        "personality": "Lively",
+        "image_url": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRPYzViuZDx1lnv6njvYymlle8kXPBftucehw&s"
+    },
+    {
+        "name": "Luna",
+        "breed": "Russian Blue",
+        "age": "1 year",
+        "personality": "Calm",
+        "image_url": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcR0k56Mu4DvmKaWUzKcEz9YGBsAPBe7G2XNPA&s"
+    },
+    {
+        "name": "Fluffy",
+        "breed": "Turkish Angora",
+        "age": "10 months",
+        "personality": "Gentle",
+        "image_url": "https:\/\/www.thesprucepets.com\/thmb\/6H5zpnf6V5AHAM4AZFi06lhoSr0=\/2121x0\/filters:no_upscale():strip_icc()\/GettyImages-1140917170-727bc42801da47c4ace4eb34940d2120.jpg"
+    },
+    {
+        "name": "Sunny",
+        "breed": "Parrot",
+        "age": "2 years",
+        "personality": "Cheerful",
+        "image_url": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSMg6tsMpakDXYv5KQsd9pvv114gIaE4NUXcQ&s"
+    },
+    {
+        "name": "Rex",
+        "breed": "Macaw",
+        "age": "3 years",
+        "personality": "Loyal",
+        "image_url": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcR_5_YB6R9AY52d3rK8xre0MaCRyDSAtma27g&s"
+    },
+    {
+        "name": "Jalali",
+        "breed": "Pigeon",
+        "age": "3 months",
+        "personality": "Playful",
+        "image_url": "..\/Adoption\/uploads\/308074031-480px.jpg"
+    },
+    {
+        "name": "Lockey",
+        "breed": "Love Bird",
+        "age": "1 months",
+        "personality": "Lookrative",
+        "image_url": "..\/Adoption\/uploads\/R.jpeg"
+    },
+    {
+        "name": "Nooby",
+        "breed": "Rabbit",
+        "age": "4 months",
+        "personality": "Cheerful",
+        "image_url": "..\/Adoption\/uploads\/OIP.jpeg"
+    }
+]

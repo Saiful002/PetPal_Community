@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+   background-image: url('../Images/—Pngtree—pet\ grooming\ cartoon\ childlike\ yellow_1072260.jpg');
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+    position: relative;
+    left: 35%;
+}
+.container{
+    margin-top: 10rem;
+    color: white;
+}
+form{
+    position: relative;
+    left: 25%;
+    background-color: rgba(0, 0, 0, 0.203);
+    padding: 10px;
+    border-radius: 10px;
+    width: 70%;
+}
+
+

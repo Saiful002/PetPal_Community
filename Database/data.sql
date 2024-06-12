@@ -1,0 +1,30 @@
+-- Active: 1697829636522@@127.0.0.1@3306@petpal
+CREATE DATABASE petpal
+
+CREATE TABLE userData (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(20) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    passwords VARCHAR(20) NOT NULL
+);
+
+ALTER TABLE userData MODIFY passwords VARCHAR(500);
+
+CREATE TABLE ledgerTable (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    pet_name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    pet_breed VARCHAR(255)
+);
+
+CREATE TABLE cart (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL,
+    item_name VARCHAR(255) NOT NULL,
+    item_price VARCHAR(100) NOT NULL
+);
+
+
+SELECT * FROM userData
+
+SELECT * FROM ledgerTable
