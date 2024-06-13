@@ -19,7 +19,7 @@ if ($result_pet->num_rows > 0) {
     $result = $conn->query($sql_select);
 
     if ($result->num_rows > 0) {
-        echo '<h2 style="color: orangered; font-weight: bold;">Adopted Pets</h2>';
+        echo '<h2 style="color: orangered; font-weight: bold; text-align:center">Adopted Pets</h2>';
         echo '<div style="margin-top: 10px; overflow-x: auto;">';
         echo '<table style="width: 100%; border-collapse: collapse; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">';
         echo '<thead>';

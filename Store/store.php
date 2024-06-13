@@ -18,7 +18,7 @@ session_start();
 <?php include '../Navbar/navbar.php'; ?>
 
 <div class="container">
-        <h2 class="text-center">Welcome to our Virtual Pet Accessories Store!</h2>
+        <h2 class="text-center">Virtual Pet Accessories Store!</h2>
         <div id="pets-container" class="row">
         </div>
     </div>

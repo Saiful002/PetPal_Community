@@ -37,7 +37,7 @@ session_start();
                 <label for="pet-photo">Photo</label>
                 <input type="file" class="form-control-file" name="pet-photo" id="pet-photo" require>
             </div>
-            <button type="submit" class="btn btn-success">Create Profile</button>
+            <button type="submit" class="submit-btn">Create Profile</button>
         </form>
     </div>
 </body>

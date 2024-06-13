@@ -1,56 +1,47 @@
 
 .navbar {
-    background:#bd8b74c2;
+    background:#293d3ed4;
     color: white;
-    padding: 1rem;
+    padding: 0.5rem;
     font-family: 'Roboto', sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 10% 0px 10%;
+  
 }
 
 .navbar-brand {
-    font-size: 2rem;
-    background-color: rgba(255, 255, 255, 0.608);
+    font-size: 1.5rem;
     font-weight: bolder;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: black;
+    font-family:cursive;
+    color: white;
     transition: color 0.3s ease;
-    padding: 5px;
+    padding: 4px;
     border-radius: 10px;
+    text-decoration: none;
 }
-
-.navbar-toggler {
-    border: none;
-    background-color: rgba(255, 255, 255, 0.7);
-}
-
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
 
 .navbar-nav .nav-link {
     color: white;
-    font-weight: bold;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    transition: color 0.3s ease, background-color 0.3s ease; 
+    transition: color 0.1s ease, background-color 0.1s ease; 
     margin: 0 5px;
+    border-radius: 20px;
 }
 
 .navbar-nav .nav-link:hover {
-    color: yellow;
-    background-color: rgba(255, 255, 255, 0.2); /* Subtle hover effect */
+    color: white;
+    background-color: #d99417; /* Subtle hover effect */
     border-radius: 5px;
     padding: 5px 10px;
+    border-radius: 20px;
 }
 
-.navbar-nav .nav-link:focus {
-    outline: 2px solid orange;
-    outline-offset: 2px;
-}
-
-/* Active Link Styling */
 .navbar-nav .nav-item .active {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: #d99417;
     border-radius: 5px;
     padding: 5px 10px;
-    color: red;
+    color: whitesmoke;
+    border-radius: 20px;
 }

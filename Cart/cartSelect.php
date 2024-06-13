@@ -11,10 +11,10 @@ $result = $conn->query($sql_select);
 echo '<div style="padding: 20px; background-color: #f8f9fa; border-radius: 10px;">';
 
 if ($result->num_rows > 0) {
-    echo '<h2 style="color: #007bff;">Your Cart Items</h2>';
+    echo '<h2 style="color: #007bff; text-align:center">Your Cart Items</h2>';
     echo '<table style="width: 100%; border-collapse: collapse; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">';
     echo '<thead>';
-    echo '<tr style="background-color: #007bff; color: #fff;">';
+    echo '<tr style="background-color: green; color: #fff;">';
     echo '<th style="padding: 10px;">Item Name</th>';
     echo '<th style="padding: 10px;">Price ($)</th>';
     echo '</tr>';

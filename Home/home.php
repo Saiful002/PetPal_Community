@@ -11,6 +11,7 @@ session_start();
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="../Navbar/navbar.css">
+    <link rel="shortcut icon" href="https://aiapets.com/wp-content/uploads/2022/06/cropped-AIA-Pets-favicon.jpg" type="image/x-icon">
 </head>
 
 <body>
@@ -18,8 +19,8 @@ session_start();
     <div class="overlay"></div>
     <div class="content">
         <div class="animated-text">
-            Welcome to  <span>PetPals <img src="../Images/cat.png" height="3%" width="3%" alt=""> Community</span>
-            <p class="fs-5">- The greatness of a nation and its moral progress can be judged by the way its animals are treated</p>
+        Start your Journey with <br><span>PetPals <img src="../Images/cat.png" height="3%" width="3%" alt=""> Community</span>
+            <p>- The greatness of a nation and its moral progress can be judged by the way its animals are treated</p>
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>

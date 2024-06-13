@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                     <input type="text" class="form-control" id="petName" value="${pet.name}" style="display: none" name="petName">
                                     <input type="text" class="form-control" id="petBreed" value="${pet.breed}" style="display: none" name="petBreed">
                                     <input type="email" class="form-control" id="email" value="${email}" style="display: none" name="email">
-                                    <input type="submit" value="Adopt" class="btn btn-primary adopt-btn">
+                                    <input type="submit" value="Adopt" class="adopt-btn">
                                 </form>
                             </div>
                         </div>

@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                     <input type="text" class="form-control" id="itemName" value="${item.name}" style="display: none" name="itemName">
                                     <input type="text" class="form-control" id="itemPrice" value="${item.price}" style="display: none" name="itemPrice">
                                     <input type="email" class="form-control" id="email" value="${email}" style="display: none" name="email">
-                                    <input type="submit" value="Add to Cart" class="btn btn-primary cart-btn">
+                                    <input type="submit" value="Add to Cart" class="cart-btn">
                                 </form>
                             </div>
                         </div>

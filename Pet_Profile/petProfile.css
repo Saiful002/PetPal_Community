@@ -5,13 +5,13 @@ body {
    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Times New Roman', Times, serif
 }
 h2 {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 2rem;
-    background-color: black;
+    background-color: #272727c1;
     color: whitesmoke;
     border-radius: 10px;
     padding: 10px;
@@ -26,10 +26,23 @@ h2 {
 form{
     position: relative;
     left: 25%;
-    background-color: rgba(0, 0, 0, 0.203);
+    background-color: #13a76cbe;
     padding: 10px;
     border-radius: 10px;
     width: 70%;
 }
-
+.submit-btn{
+    color: white;
+    background-color: #ff652f;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: color 0.3s ease, background-color 0.3s ease; 
+    margin: 0 5px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none ;
+}
+.submit-btn:hover{
+    color: white;
+    background-color: green;
+}
 

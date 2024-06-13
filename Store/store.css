@@ -4,13 +4,13 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Times New Roman', Times, serif
 }
 h2 {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 2rem;
-    background-color: black;
+    background-color: #106466;
     color: whitesmoke;
     border-radius: 10px;
     padding: 10px;
@@ -21,14 +21,29 @@ h2 {
 
 .card {
     margin-bottom: 20px;
-    background-color: #683b11;
-    color: white;
+    background-color: #d8af8cd6;
+    color: black;
     padding: 10px;
     box-shadow: 1px 5px 5px 1px black;
+    font-weight: bold;
 }
 .container {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 7rem;
 }
-
+.cart-btn{
+    color: white;
+    background-color:  green;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: color 0.3s ease, background-color 0.3s ease; 
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+.cart-btn:hover{
+    color: white;
+    background-color: #d99417; /* Subtle hover effect */
+    
+}

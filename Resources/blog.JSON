@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Common Pet Health Issues",
+        "description": "Pets are subject to many of the same health issues that people are. Every issue needs to be treated by a veterinarian on a case-to-case basis depending on the severity and re-occurrence of the issue. Whenever there is any doubt, it is always best to seek treatment from an animal hospital and make sure that the proper steps are taken for getting the veterinary assistance your pet may need. Ardmore Animal Hospital provides many pet care and veterinary services for pet patients from Ardmore and the surrounding cities, including Bryn Mawr, Haverford, and Radnor. Ardmore Animal Hospital also commonly sees pet patients from the Gladwyne, Wynnewood, and Narbeth areas.One of the most common pet health issues is obesity. Unnecessary weight gain in pets happens frequently due to lack of exercise and from simply eating too much food. Pets should have their feeding times as well, not just when their dishes are empty.",
+        "ref_link": "https://www.ardmoreah.com/resources/pet-care/common-pet-health-issues/",
+        "name": "John Doe",
+        "email": "john@example.com"
+    },
+    {
+        "title": "Preventing Pet Health Problems",
+        "description": "Over 80% of dogs over the age of 3, and between 50-90% of cats over 4, live with dental disease. Its not always easy to remember to brush your pup or kittys teeth, which is the best way to prevent dental disease, but regular dental care is important. Without regular dental care, food and bacteria turn into plaque, which hardens into tartar. This irritates the gums, causing inflammation and gingivitis that can affect the entire body—not just your pets mouth. Dental treats and water additives can make a big difference if you simply cant stick to a brushing routine. Yearly dental cleanings, like the ones recommended by your own dentist,  are the other big step you can take to protect your pet from dental disease. ",
+        "ref_link": "https://www.marketplaceveterinary.com/blog/common-pet-health-issues-and-how-to-prevent-them-a-guide-for-pet-owners/",
+        "name": "Jane Smith",
+        "email": "jane@example.com"
+    },
+    {
+        "title": "Understanding Pet Vaccinations",
+        "description": "Pet vaccinations introduce the immune system to various viruses or bacteria that could make your pet very sick if they are ever exposed. By forcing the immune system to react to these foreign agents, it builds up an immunity to disease by producing disease-fighting antibodies. Then, if a pet is ever around an infected animal, drinks contaminated water, or suffers an injury during a fight, they will be well-equipped to fight an infection. ",
+        "ref_link": "https://www.oakhurstvet.com/blog/understanding-pet-vaccinations-what-every-owner-should-know/#:~:text=Core%20and%20Non%2DCore%20Vaccines,of%20every%20pet's%20preventive%20health.&text=Non%2Dcore%20vaccinations%20are%20based,is%20boarded%20or%20attends%20daycare.",
+        "name": "Michael Johnson",
+        "email": "michael@example.com"
+    },
+    {
+        "title": "Maintaining Pet Dental Health",
+        "description": "Prevention of the most common oral disease in pets consists of frequent removal of the dental plaque and tartar that forms on teeth that are not kept clean. Regularly brushing your pet’s teeth is the single most effective thing you can do to keep their teeth healthy between dental cleanings, and may reduce the frequency or even eliminate the need for periodic dental cleaning by your veterinarian. Daily brushing is best, but it’s not always possible and brushing several times a week can be effective. Most dogs accept brushing, but cats can be a bit more resistant patience and training are important.",
+        "ref_link": "https://www.avma.org/resources-tools/pet-owners/petcare/pet-dental-care#:~:text=Regularly%20brushing%20your%20pet's%20teeth,dental%20cleaning%20by%20your%20veterinarian.",
+        "name": "Emily Brown",
+        "email": "emily@example.com"
+    }
+]
