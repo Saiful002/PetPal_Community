@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
             document.querySelectorAll('.cart-btn').forEach(button => {
                                 button.addEventListener('click', function() {
-                                    window.location.href = `../Login/checkLogin.php?item=${name}`;
+                                    window.location.href = `../Login/checkLogin.php`;
                                 });
                             });
                         })

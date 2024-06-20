@@ -2,7 +2,7 @@
 session_start();
 include_once "../Database/connection.php";
 
-// Get the email from the session or localStorage
+// getting email from session
 $email = $_SESSION['user_email'];
 
 $sql_select = "SELECT pet_name FROM ledgerTable WHERE email='$email' ORDER BY id DESC LIMIT 1";
@@ -12,9 +12,6 @@ if ($result_pet->num_rows > 0) {
     $row_pet = $result_pet->fetch_assoc();
     $petName = $row_pet['pet_name'];
 
-    
-
-    // Fetch and display adopted pets
     $sql_select = "SELECT pet_name, email, pet_breed FROM ledgerTable WHERE email='$email'";
     $result = $conn->query($sql_select);
 

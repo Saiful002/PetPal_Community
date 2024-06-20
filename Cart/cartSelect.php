@@ -2,7 +2,7 @@
 session_start();
 include_once "../Database/connection.php";
 
-// Get the email from the session or localStorage
+//getting email from session
 $email = $_SESSION['user_email'];
 
 $sql_select = "SELECT item_name, item_price FROM cart WHERE email='$email'";

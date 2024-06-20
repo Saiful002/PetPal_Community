@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
             document.querySelectorAll('.adopt-btn').forEach(input => {
                 input.addEventListener('click', function() {
-                    window.location.href = `../Login/checkLogin.php?pet=${petName}`;   
+                    window.location.href = `../Login/checkLogin.php`;   
                 });
             });
             

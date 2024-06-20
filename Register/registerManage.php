@@ -6,10 +6,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    // Hash the password before storing
+    // hashing the password for safety
     $hashedPassword = password_hash($password, PASSWORD_BCRYPT);
 
-    // Prepare and bind
     $stmt = $conn->prepare("INSERT INTO userData (username, email, passwords) VALUES (?, ?, ?)");
     if ($stmt) {
         $stmt->bind_param("sss", $username, $email, $hashedPassword);

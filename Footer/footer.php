@@ -1,4 +1,3 @@
-<!-- footer.php -->
 <footer class="footer text-white">
     <div class="container">
         <div class="row">

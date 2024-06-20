@@ -22,7 +22,7 @@ session_start();
     <div class="container">
         <h2 class="text-center mb-4 mt-3">Pet Health</h2>
         <div class="row g-4" id="health-cards">
-            <!-- Health cards will be dynamically loaded here -->
+           
         </div>
     </div>
 </section>

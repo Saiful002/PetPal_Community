@@ -10,7 +10,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    // Prepare and bind
     $stmt = $conn->prepare("SELECT email, passwords FROM userData WHERE email = ?");
     if (!$stmt) {
         die("Prepare statement failed: " . $conn->error);
@@ -23,13 +22,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     if ($stmt->num_rows > 0) {
         if (password_verify($password, $db_password)) {
-            // Store email in session and local storage
+
             $_SESSION['user_email'] = $db_email;
-            
-            // Output the script to store the email in local storage
+
             echo "<script>
                     localStorage.setItem('user_email', '" . htmlspecialchars($db_email, ENT_QUOTES, 'UTF-8') . "');
-                    window.location.href = '../Adoption/adoption.php';
+                    window.location.href = '../Home/home.php';
                   </script>";
             exit();
         } else {

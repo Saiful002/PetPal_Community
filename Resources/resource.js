@@ -25,7 +25,7 @@
                     card.innerHTML = cardContent;
                     healthCards.appendChild(card);
 
-                    // Add "See More" button if description overflows
+                    // see more button configuaration
                     const cardText = card.querySelector('.card-text');
                     if (cardText.scrollHeight > cardText.clientHeight) {
                         const seeMoreButton = document.createElement('button');
@@ -39,14 +39,12 @@
                         card.querySelector('.see-more-container').prepend(seeMoreButton);
                     }
 
-                    // Calculate max height for cards
                     const cardHeight = card.querySelector('.card').offsetHeight;
                     if (cardHeight > maxHeight) {
                         maxHeight = cardHeight;
                     }
                 });
 
-                // Set all cards to the same height
                 document.querySelectorAll('.card').forEach(card => {
                     card.style.height = `${maxHeight}px`;
                 });
@@ -55,10 +53,8 @@
     });
 
     function showFullText(item) {
-        // Create the modal dynamically
+        // modal creation
         const modal = document.createElement('div');
-      
-
         modal.innerHTML = `
            <!-- Modal -->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">

@@ -1,7 +1,7 @@
 <?php
 session_start();
 include_once "../Database/connection.php";
- // Log the request method
+
 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -9,9 +9,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'] ?? null;
     $petBreed = $_POST['petBreed'] ?? null;
 
-    error_log("POST data - petName: $petName, email: $email, petBreed: $petBreed"); // Log the POST data
-
-    // Ensure variables are set and not empty
+    error_log("POST data - petName: $petName, email: $email, petBreed: $petBreed"); 
+ 
     if (!empty($petName) && !empty($email) && !empty($petBreed)) {
         $sql = "INSERT INTO ledgerTable (pet_name, email, pet_breed) VALUES ('$petName', '$email', '$petBreed')";
         if ($conn->query($sql) === TRUE) {

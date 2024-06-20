@@ -32,7 +32,7 @@
 
 .navbar-nav .nav-link:hover {
     color: white;
-    background-color: #d99417; /* Subtle hover effect */
+    background-color: #d99417; 
     border-radius: 5px;
     padding: 5px 10px;
     border-radius: 20px;
