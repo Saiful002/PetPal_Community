@@ -12,6 +12,8 @@ session_start();
 
     <link rel="stylesheet" href="adoption.css">
     <link rel="stylesheet" href="../Navbar/navbar.css">
+    <link rel="stylesheet" href="../Footer/footer.css">
+    <script src="https://kit.fontawesome.com/836f975668.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <?php include '../Navbar/navbar.php'; ?>
@@ -20,6 +22,7 @@ session_start();
         <div id="pets-container" class="row">
         </div>
     </div>
+    <?php include '../Footer/footer.php'; ?>
     <script src="adoption.js"></script>
 </body>
 

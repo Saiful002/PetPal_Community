@@ -124,5 +124,12 @@
         "age": "4 months",
         "personality": "Cheerful",
         "image_url": "..\/Adoption\/uploads\/OIP.jpeg"
+    },
+    {
+        "name": "Noyon",
+        "breed": "Parrot",
+        "age": "1 month",
+        "personality": "Talkative",
+        "image_url": "..\/Adoption\/uploads\/R.jpeg"
     }
 ]

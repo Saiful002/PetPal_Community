@@ -10,11 +10,13 @@ session_start();
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="petProfile.css">
     <link rel="stylesheet" href="../Navbar/navbar.css">
+    <link rel="stylesheet" href="../Footer/footer.css">
+    <script src="https://kit.fontawesome.com/836f975668.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 <?php include '../Navbar/navbar.php'; ?>
-    <div class="container">
+    <div class="container mb-5">
         <h2 class="text-center">Create Pet Profiles for give Adoption</h2>
         <form action="profileControl.php" method="POST" enctype="multipart/form-data">
             <div class="form-group">
@@ -40,6 +42,7 @@ session_start();
             <button type="submit" class="submit-btn">Create Profile</button>
         </form>
     </div>
+    <?php include '../Footer/footer.php'; ?>
 </body>
 
 </html>
