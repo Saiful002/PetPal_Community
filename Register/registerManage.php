@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    // hashing the password for safety
+    // hashing the password for safety CRYPT_BLOWFISH
     $hashedPassword = password_hash($password, PASSWORD_BCRYPT);
 
     $stmt = $conn->prepare("INSERT INTO userData (username, email, passwords) VALUES (?, ?, ?)");

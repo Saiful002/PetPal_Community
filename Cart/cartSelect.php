@@ -41,7 +41,25 @@ if ($result->num_rows > 0) {
    
    ';
 } else {
-    echo '<p style="color: #dc3545; margin: 0;">No items in the cart.</p>';
+    echo '
+    <body style="margin:0; font-family: Arial, sans-serif;">
+        <div class="container">
+            <div id="popup" style="display: block; position: fixed; z-index: 1; padding-top: 100px; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.4);">
+                <div style="background-color: #fefefe; margin: auto; padding: 20px; border: 1px solid #888; width: 80%; max-width: 500px; border-radius: 5px; text-align: center;">
+                    <h2 style="color: red;">The cart is empty!!!!</h2>
+                    <button id="goBack" style="margin-top: 20px; padding: 10px 20px; font-size: 16px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">Go Back</button>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 20px;">
+            
+        </div>
+        <script>
+            document.getElementById("goBack").addEventListener("click", function() {
+                window.location.href = "../Store/store.php";   
+            });
+        </script>
+    </body>';
 }
 
 echo '</div>';

@@ -131,5 +131,12 @@
         "age": "1 month",
         "personality": "Talkative",
         "image_url": "..\/Adoption\/uploads\/R.jpeg"
+    },
+    {
+        "name": "Name",
+        "breed": "Bird",
+        "age": "2 months",
+        "personality": "anything",
+        "image_url": "..\/Adoption\/uploads\/308074031-480px.jpg"
     }
 ]
